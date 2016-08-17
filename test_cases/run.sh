@@ -31,7 +31,7 @@ echo '## Original tree'
 echo '```'
 cat test.nw
 echo '```'
-echo '![ete3](https://github.com/jhcepas/test_branch_support_after_tree_rerooting/blob/master/original_tree.png)' 
+echo '![ete3](https://github.com/stamatak/tree-viz-issues/blob/master/test_cases/original_tree.png)' 
 
 
 echo '## Tree after rooting to X' 
@@ -66,5 +66,5 @@ do
     echo '```';  
     #./$x|ete3 view --text --attr name support --sin; 
     ./$x |ete3 view  --attr name support --sin --ss --sbl -i $x.png; 
-    echo "![$x](https://github.com/jhcepas/test_branch_support_after_tree_rerooting/blob/master/$x.png)"
+    echo "![$x](https://github.com/stamatak/tree-viz-issues/blob/master/test_cases/$x.png)"
 done
