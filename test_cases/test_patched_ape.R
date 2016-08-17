@@ -1,0 +1,5 @@
+library("ape")
+source("new_root.R")
+tr <- read.tree("test.nw")
+tr <- root(tr, "X", edgelabel = TRUE)
+write.tree(tr)
