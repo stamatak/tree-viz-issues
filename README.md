@@ -1,6 +1,7 @@
 # tree-viz-issues
-Test datasets and test cases for our biorxiv preprint on phylogenetic tree visualization issues.
-See [http://biorxiv.org/content/early/2015/12/25/035360](http://biorxiv.org/content/early/2015/12/25/035360).
+Test datasets and test cases for our paper on phylogenetic tree visualization issues.
+See [here](https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msx055) for the paper, 
+and see [here](https://www.biorxiv.org/content/early/2017/01/13/035360) for the preprint.
 
 This repository contains the two test files we used in our prepint:
 
